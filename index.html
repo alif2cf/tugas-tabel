@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Destinasi Wisata dari Kota Asal</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(120deg, #dbeafe, #e0f2fe, #fef9c3);
+      background-size: 600% 600%;
+      animation: gradientShift 20s ease infinite;
+      line-height: 1.6;
+    }
+    @keyframes gradientShift {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+    header {
+      background-color: rgba(0, 102, 204, 0.9);
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+    table {
+      width: 95%;
+      max-width: 1000px;
+      margin: 30px auto;
+      background: #fff;
+      border-collapse: collapse;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    th, td {
+      padding: 12px 15px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+    th {
+      background-color: #f3f4f6;
+    }
+    tr:hover {
+      background-color: #f9fafb;
+    }
+    .city-img {
+      width: 70px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-bottom: 6px;
+    }
+    .city-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .city-name {
+      font-weight: bold;
+      margin-top: 4px;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    h2 {
+      text-align: center;
+      margin-top: 30px;
+      color: #0066cc;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1></h1>
+</header>
+
+<h2>tabel Kota dan Destinasi wisata nya</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>No</th>
+      <th>Kota Asal</th>
+      <th>Destinasi Wisata</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>
+        <div class="city-info">
+          <img src="lahat.jpg" alt="Lahat" class="city-img">
+          <div class="city-name">Lahat</div>
+        </div>
+      </td>
+      <td><a href="https://www.kacawisata.com/wisata-di-lahat/" target="_blank"> Lahat</a></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>
+        <div class="city-info">
+          <img src="pagaralam.jpg" alt="Pagaralam" class="city-img">
+          <div class="city-name">Pagaralam</div>
+        </div>
+      </td>
+      <td><a href="https://www.andalastourism.com/tempat-wisata-pagar-alam" target="_blank"> Pagaralam</a></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>
+        <div class="city-info">
+          <img src="cropped-Lambang-Logo-Banyuasin-2.jpg" alt="Banyuasin" class="city-img">
+          <div class="city-name">Banyuasin</div>
+        </div>
+      </td>
+      <td><a href="https://sumselprov.go.id/wisata-banyuasin/" target="_blank"> Banyuasin</a></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>
+        <div class="city-info">
+          <img src="palembang.jpg" alt="Palembang" class="city-img">
+          <div class="city-name">Palembang</div>
+        </div>
+      </td>
+      <td><a href="https://www.nativeindonesia.com/tempat-wisata-di-palembang/" target="_blank"> Palembang</a></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>
+        <div class="city-info">
+          <img src="OKU New.jpg" alt="Baturaja" class="city-img">
+          <div class="city-name">oku</div>
+        </div>
+      </td>
+      <td><a href="https://kumparan.com/baturaja-post/10-tempat-wisata-menarik-di-kabupaten-oku" target="_blank"> oku</a></td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
